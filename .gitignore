@@ -1,0 +1,13 @@
+﻿#############
+## Idea
+#############
+target/
+.idea/
+.idea
+.repository/
+*.class
+*.jar
+
+/out/
+/out.log
+/out.log.*
