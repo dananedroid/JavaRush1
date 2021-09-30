@@ -13,6 +13,5 @@ public class Solution {
         System.out.println("Gomu Gomu no Bazooka!".length());
         System.out.println((emptyString + 2 + 2 + "22").length());
 
-
     }
 }
