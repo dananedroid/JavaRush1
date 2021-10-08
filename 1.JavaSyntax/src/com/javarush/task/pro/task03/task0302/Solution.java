@@ -9,13 +9,17 @@ import java.util.Scanner;
 public class Solution {
     public static void main(String[] args) {
         String militaryCommissar = ", явитесь в военкомат";
-        Scanner c = new Scanner(System.in);
-        String str = c.nextLine();
-        Scanner a = new Scanner(System.in);
-        int number = a.nextInt();
-        if (28 >= number && number >= 18) {
-            System.out.println(str + militaryCommissar);
+        Scanner scanner = new Scanner(System.in);
+        String name = scanner.nextLine();
+        int age = scanner.nextInt();
+        if (age >= 18 && age <= 28) {
+            System.out.println(name + militaryCommissar);
         }
 
     }
 }
+//          18                      28
+//------------|_____________________________
+//_________________________________|-----------
+//------------|____________________|------------ &&
+//____________|--------------------|____________ age <=18 || age >= 28
