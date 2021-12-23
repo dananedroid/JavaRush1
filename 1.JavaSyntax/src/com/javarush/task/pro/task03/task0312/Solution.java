@@ -8,9 +8,13 @@ import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) {
-        //напишите тут ваш код
-        System.out.println("строки одинаковые");
-        //напишите тут ваш код
-        System.out.println("строки разные");
+        Scanner console = new Scanner(System.in);
+        String text1 = console.nextLine();
+        String text2 = console.nextLine();
+        if (text1.equals(text2)) {
+            System.out.println("строки одинаковые");
+        } else {
+            System.out.println("строки разные");
+        }
     }
 }
